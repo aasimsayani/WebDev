@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>	
+
+
+
+
+<body>
+
+
+
+</body>
+
+
+
+
+</html>	
+<script>
+var namesOfClassmates = ["Jovan", "Aasim", "Aron", "Sid", "Nathan"]
+	// console.log(namesOfClassmates)
+	console.log(namesOfClassmates.length);
+
+
+var myNumbers = [4, 65, 0, 29];
+myNumbers[0] = 25;
+	// console.log(myNumbers);
+	console.log(myNumbers.length);
+
+var x = 10;
+while (x>5) {
+	x-=2;
+}
+console.log(x);
+
+var students = ["Jose", "Eduardo", "Estrada", "Evan"];
+for (var i = 0; i < students.length; i += 1) {
+	console.log("Hello " + students[i]);
+}
+
+
+function recitPoem() {
+	console.log("roses are red, violets are blue");
+}
+
+recitPoem();
+
+var calculateTotal = function (price, salesTaxRate) {
+	var totalAmount = price + (price * salesTaxRate);
+	console.log("The total is $" + totalAmount);
+};
+
+	calculateTotal(5.5, 0.10);
+	calculateTotal(7.5, 0.10);
+	calculateTotal(15.2, 0.19);
+
+
+
+// console.log(recitePoem);
+// var attention = function(number) {
+// 	for (number > 0; number/3 && number/5; x = "fizzbuzz") {
+// 		console.log("fizzbuzz");
+// 	};
+// 		for (number > 0; number/3; x = "fizz") {
+// 		  console.log("fizz");	
+// 		};
+// 			for (number > 0; number/5; x = "buzz"){
+// 				console.log("buzz");
+// 			};
+// 				for(number>0; !number/5 || !number/3; x = x){
+// 					console.log("x");
+// 					};
+// }
+
+// 	attention();
+
+
+ 
+
+
+
+//  if (x%3 === 0 ) {
+//  	console.log = "fizz";
+// }
+//  if (x%5 === 0) {
+//  	console.log = "buzz";
+//  }
+//  else (x%3 && x%5 === 0) {
+//  	console.log = "fizzbuzz";
+//  }
+//  else (x%3 && x%5 !== 0) {
+//  	conosole.log = "x";
+//  }
+//  else {
+//  	console.log = "fail";
+//  }
+var x = 6; 
+
+if (x%3 === 0 && x%5 ===0) {
+	console.log = "fizzbuzz";
+}
+	else {
+		if(x%3 === 0) {
+			console.log = "fizz";
+		}
+		if(x%5 === 0) {
+			console.log = "buzz";
+		}
+		if(x%5 !== 0 && x%3 !== 0) {
+			console.log(x)
+		}
+	}
+
+var contacts = ["Matt Smith", "Sam Davis", "Ashley Jones"]
+
+var dad = contacts[1]
+contacts[1] = "Mark Williams";
+contacts.pop();
+contacts.push("Michelle Johnson");
+var numberOfContacts = contacts.length;
+
+console.log(numberOfContacts);
+
+</script>			
